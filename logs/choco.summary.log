@@ -1,0 +1,210 @@
+2024-12-01 16:05:19,865 10640 [INFO ] - ============================================================
+2024-12-01 16:05:22,182 10640 [INFO ] - Chocolatey v2.4.0
+2024-12-01 16:05:22,197 10640 [INFO ] - Please run 'choco -?' or 'choco <command> -?' for help menu.
+2024-12-01 16:05:24,423 10640 [WARN ] - Directory 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib' does not exist.
+2024-12-01 16:06:15,651 10532 [INFO ] - ============================================================
+2024-12-01 16:06:19,922 10532 [INFO ] - Chocolatey v2.4.0
+2024-12-01 16:06:21,373 10532 [WARN ] - Directory 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib' does not exist.
+2024-12-01 16:06:22,294 10532 [INFO ] - 3 validations performed. 3 success(es), 0 warning(s), and 0 error(s).
+2024-12-01 16:06:22,303 10532 [WARN ] - Chocolatey detected you are not running from an elevated command shell
+ (cmd/powershell).
+2024-12-01 16:06:22,416 10532 [WARN ] - 
+ You may experience errors - many functions/packages
+ require admin rights. Only advanced users should run choco w/out an
+ elevated shell. When you open the command shell, you should ensure
+ that you do so with "Run as Administrator" selected. If you are
+ attempting to use Chocolatey in a non-administrator setting, you
+ must select a different location other than the default install
+ location. See
+ https://docs.chocolatey.org/en-us/choco/setup#non-administrative-install
+ for details.
+
+2024-12-01 16:06:22,849 10532 [INFO ] - 
+ Do you want to continue?
+2024-12-01 16:06:22,857 10532 [INFO ] -  1) yes
+2024-12-01 16:06:22,860 10532 [INFO ] -  2) no
+2024-12-01 16:07:14,677 10532 [INFO ] - Choice selected: 'yes'
+2024-12-01 16:07:14,860 10532 [INFO ] - Installing the following packages:
+2024-12-01 16:07:14,871 10532 [INFO ] - manim-latex
+2024-12-01 16:07:14,871 10532 [INFO ] - By installing, you accept licenses for the packages.
+2024-12-01 16:07:18,265 10532 [INFO ] - [NuGet]   GET https://community.chocolatey.org/api/v2/$metadata
+2024-12-01 16:07:18,429 10532 [INFO ] - [NuGet]   OK https://community.chocolatey.org/api/v2/$metadata 153ms
+2024-12-01 16:07:18,634 10532 [INFO ] - [NuGet]   GET https://community.chocolatey.org/api/v2/Packages()?$filter=(tolower(Id) eq 'manim-latex') and IsLatestVersion&semVerLevel=2.0.0
+2024-12-01 16:07:18,799 10532 [INFO ] - [NuGet]   OK https://community.chocolatey.org/api/v2/Packages()?$filter=(tolower(Id) eq 'manim-latex') and IsLatestVersion&semVerLevel=2.0.0 165ms
+2024-12-01 16:07:19,335 10532 [INFO ] - [NuGet]   GET https://community.chocolatey.org/api/v2/Packages(Id='manim-latex',Version='2024.11.0')
+2024-12-01 16:07:19,518 10532 [INFO ] - [NuGet]   OK https://community.chocolatey.org/api/v2/Packages(Id='manim-latex',Version='2024.11.0') 178ms
+2024-12-01 16:07:19,726 10532 [INFO ] - [NuGet]   GET https://community.chocolatey.org/api/v2/FindPackagesById()?id='tinytex'&semVerLevel=2.0.0
+2024-12-01 16:07:19,870 10532 [INFO ] - [NuGet]   OK https://community.chocolatey.org/api/v2/FindPackagesById()?id='tinytex'&semVerLevel=2.0.0 144ms
+2024-12-01 16:07:20,973 10532 [INFO ] - [NuGet]   GET http://community.chocolatey.org/api/v2/FindPackagesById?id='tinytex'&$skiptoken='1709401702480','2021.9.0','tinytex'
+2024-12-01 16:07:24,125 10532 [INFO ] - [NuGet]   OK http://community.chocolatey.org/api/v2/FindPackagesById?id='tinytex'&$skiptoken='1709401702480','2021.9.0','tinytex' 3153ms
+2024-12-01 16:07:25,763 10532 [INFO ] - [NuGet]   GET http://community.chocolatey.org/api/v2/FindPackagesById?id='tinytex'&$skiptoken='1708139022643','2020.9.0','tinytex'
+2024-12-01 16:07:26,079 10532 [INFO ] - [NuGet]   OK http://community.chocolatey.org/api/v2/FindPackagesById?id='tinytex'&$skiptoken='1708139022643','2020.9.0','tinytex' 322ms
+2024-12-01 16:07:26,399 10532 [INFO ] - [NuGet] Resolving dependency information took 0 ms
+2024-12-01 16:07:26,431 10532 [INFO ] - [NuGet]   GET https://community.chocolatey.org/api/v2/Packages(Id='tinytex',Version='2024.12.0')
+2024-12-01 16:07:27,788 10532 [INFO ] - [NuGet]   OK https://community.chocolatey.org/api/v2/Packages(Id='tinytex',Version='2024.12.0') 1358ms
+2024-12-01 16:07:27,955 10532 [INFO ] - Downloading package from source 'https://community.chocolatey.org/api/v2/'
+2024-12-01 16:07:28,044 10532 [INFO ] - [NuGet]   GET https://community.chocolatey.org/api/v2/package/tinytex/2024.12.0
+2024-12-01 16:07:30,702 10532 [INFO ] - [NuGet]   OK https://community.chocolatey.org/api/v2/package/tinytex/2024.12.0 2661ms
+2024-12-01 16:07:30,740 10532 [INFO ] - [NuGet] Acquiring lock for the installation of tinytex 2024.12.0
+2024-12-01 16:07:30,825 10532 [INFO ] - [NuGet] Acquired lock for the installation of tinytex 2024.12.0
+2024-12-01 16:07:31,416 10532 [INFO ] - [NuGet] Installed tinytex 2024.12.0 from https://community.chocolatey.org/api/v2/ with content hash xabEArjygZ8kkbHihItCvZOQSgMznKawNO3efiSEJ8EpsjD69X4tdxKnrHWrqQeR1HYsx0irM2QehiQFoYl3hg==.
+2024-12-01 16:07:31,518 10532 [INFO ] - [NuGet] Adding package 'tinytex.2024.12.0' to folder 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib'
+2024-12-01 16:07:31,765 10532 [INFO ] - [NuGet] Added package 'tinytex.2024.12.0' to folder 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib'
+2024-12-01 16:07:31,929 10532 [INFO ] - 
+tinytex v2024.12.0 [Approved]
+2024-12-01 16:07:32,167 10532 [INFO ] - tinytex package files install completed. Performing other installation steps.
+2024-12-01 16:07:32,464 10532 [INFO ] - The package tinytex wants to run 'chocolateyinstall.ps1'.
+2024-12-01 16:07:32,475 10532 [INFO ] - Note: If you don't run this script, the installation will fail.
+2024-12-01 16:07:32,484 10532 [INFO ] - Note: To confirm automatically next time, use '-y' or consider:
+2024-12-01 16:07:32,499 10532 [INFO ] - choco feature enable -n allowGlobalConfirmation
+2024-12-01 16:07:32,609 10532 [INFO ] - Do you want to run the script?
+2024-12-01 16:07:32,611 10532 [INFO ] -  1) yes
+2024-12-01 16:07:32,630 10532 [INFO ] -  2) all - yes to all
+2024-12-01 16:07:32,658 10532 [INFO ] -  3) no
+2024-12-01 16:07:32,662 10532 [INFO ] -  4) print
+2024-12-01 16:07:45,060 10532 [INFO ] - Choice selected: 'yes'
+2024-12-01 16:07:49,407 10532 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2024-12-01 16:07:49,407 10532 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2024-12-01 16:07:49,419 10532 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyConfigValue'.
+2024-12-01 16:07:49,419 10532 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyPath'.
+2024-12-01 16:07:49,419 10532 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2024-12-01 16:07:49,419 10532 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2024-12-01 16:07:49,419 10532 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2024-12-01 16:07:49,419 10532 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2024-12-01 16:07:49,419 10532 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2024-12-01 16:07:49,419 10532 [INFO ] - VERBOSE: Exporting function 'Get-PackageParametersBuiltIn'.
+2024-12-01 16:07:49,436 10532 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2024-12-01 16:07:49,436 10532 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2024-12-01 16:07:49,439 10532 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2024-12-01 16:07:49,442 10532 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2024-12-01 16:07:49,442 10532 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2024-12-01 16:07:49,442 10532 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2024-12-01 16:07:49,442 10532 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2024-12-01 16:07:49,442 10532 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2024-12-01 16:07:49,442 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2024-12-01 16:07:49,455 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2024-12-01 16:07:49,455 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2024-12-01 16:07:49,455 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2024-12-01 16:07:49,455 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2024-12-01 16:07:49,455 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2024-12-01 16:07:49,455 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2024-12-01 16:07:49,455 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2024-12-01 16:07:49,455 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2024-12-01 16:07:49,471 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2024-12-01 16:07:49,471 10532 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2024-12-01 16:07:49,471 10532 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2024-12-01 16:07:49,471 10532 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2024-12-01 16:07:49,471 10532 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2024-12-01 16:07:49,471 10532 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2024-12-01 16:07:49,471 10532 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2024-12-01 16:07:49,471 10532 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2024-12-01 16:07:49,486 10532 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2024-12-01 16:07:49,492 10532 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2024-12-01 16:07:49,492 10532 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2024-12-01 16:07:49,492 10532 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2024-12-01 16:07:49,503 10532 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2024-12-01 16:07:49,503 10532 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2024-12-01 16:07:49,507 10532 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2024-12-01 16:07:49,507 10532 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2024-12-01 16:07:49,507 10532 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2024-12-01 16:07:49,541 10532 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2024-12-01 16:07:49,541 10532 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2024-12-01 16:07:49,541 10532 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyConfigValue'.
+2024-12-01 16:07:49,541 10532 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyPath'.
+2024-12-01 16:07:49,541 10532 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2024-12-01 16:07:49,541 10532 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2024-12-01 16:07:49,555 10532 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2024-12-01 16:07:49,556 10532 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2024-12-01 16:07:49,559 10532 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2024-12-01 16:07:49,562 10532 [INFO ] - VERBOSE: Exporting function 'Get-PackageParametersBuiltIn'.
+2024-12-01 16:07:49,563 10532 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2024-12-01 16:07:49,563 10532 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2024-12-01 16:07:49,563 10532 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2024-12-01 16:07:49,563 10532 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2024-12-01 16:07:49,563 10532 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2024-12-01 16:07:49,563 10532 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2024-12-01 16:07:49,563 10532 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2024-12-01 16:07:49,579 10532 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2024-12-01 16:07:49,579 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2024-12-01 16:07:49,579 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2024-12-01 16:07:49,579 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2024-12-01 16:07:49,579 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2024-12-01 16:07:49,579 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2024-12-01 16:07:49,579 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2024-12-01 16:07:49,595 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2024-12-01 16:07:49,595 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2024-12-01 16:07:49,595 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2024-12-01 16:07:49,595 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2024-12-01 16:07:49,595 10532 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2024-12-01 16:07:49,595 10532 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2024-12-01 16:07:49,595 10532 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2024-12-01 16:07:49,595 10532 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2024-12-01 16:07:49,610 10532 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2024-12-01 16:07:49,610 10532 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2024-12-01 16:07:49,610 10532 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2024-12-01 16:07:49,610 10532 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2024-12-01 16:07:49,610 10532 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2024-12-01 16:07:49,610 10532 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2024-12-01 16:07:49,610 10532 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2024-12-01 16:07:49,626 10532 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2024-12-01 16:07:49,626 10532 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2024-12-01 16:07:49,626 10532 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2024-12-01 16:07:49,633 10532 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2024-12-01 16:07:49,634 10532 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2024-12-01 16:07:49,640 10532 [INFO ] - VERBOSE: Importing function 'Format-FileSize'.
+2024-12-01 16:07:49,640 10532 [INFO ] - VERBOSE: Importing function 'Get-ChecksumValid'.
+2024-12-01 16:07:49,640 10532 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyConfigValue'.
+2024-12-01 16:07:49,640 10532 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyPath'.
+2024-12-01 16:07:49,640 10532 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyUnzip'.
+2024-12-01 16:07:49,657 10532 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyWebFile'.
+2024-12-01 16:07:49,658 10532 [INFO ] - VERBOSE: Importing function 'Get-FtpFile'.
+2024-12-01 16:07:49,662 10532 [INFO ] - VERBOSE: Importing function 'Get-OSArchitectureWidth'.
+2024-12-01 16:07:49,665 10532 [INFO ] - VERBOSE: Importing function 'Get-PackageParameters'.
+2024-12-01 16:07:49,667 10532 [INFO ] - VERBOSE: Importing function 'Get-PackageParametersBuiltIn'.
+2024-12-01 16:07:49,669 10532 [INFO ] - VERBOSE: Importing function 'Get-ToolsLocation'.
+2024-12-01 16:07:49,672 10532 [INFO ] - VERBOSE: Importing function 'Get-UACEnabled'.
+2024-12-01 16:07:49,674 10532 [INFO ] - VERBOSE: Importing function 'Get-UninstallRegistryKey'.
+2024-12-01 16:07:49,676 10532 [INFO ] - VERBOSE: Importing function 'Get-VirusCheckValid'.
+2024-12-01 16:07:49,680 10532 [INFO ] - VERBOSE: Importing function 'Get-WebFile'.
+2024-12-01 16:07:49,680 10532 [INFO ] - VERBOSE: Importing function 'Get-WebFileName'.
+2024-12-01 16:07:49,680 10532 [INFO ] - VERBOSE: Importing function 'Get-WebHeaders'.
+2024-12-01 16:07:49,680 10532 [INFO ] - VERBOSE: Importing function 'Install-BinFile'.
+2024-12-01 16:07:49,680 10532 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyEnvironmentVariable'.
+2024-12-01 16:07:49,680 10532 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyExplorerMenuItem'.
+2024-12-01 16:07:49,680 10532 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyFileAssociation'.
+2024-12-01 16:07:49,696 10532 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyInstallPackage'.
+2024-12-01 16:07:49,696 10532 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPackage'.
+2024-12-01 16:07:49,696 10532 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPinnedTaskBarItem'.
+2024-12-01 16:07:49,696 10532 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPowershellCommand'.
+2024-12-01 16:07:49,696 10532 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyShortcut'.
+2024-12-01 16:07:49,696 10532 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyVsixPackage'.
+2024-12-01 16:07:49,696 10532 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyZipPackage'.
+2024-12-01 16:07:49,711 10532 [INFO ] - VERBOSE: Importing function 'Install-Vsix'.
+2024-12-01 16:07:49,711 10532 [INFO ] - VERBOSE: Importing function 'Set-PowerShellExitCode'.
+2024-12-01 16:07:49,711 10532 [INFO ] - VERBOSE: Importing function 'Start-ChocolateyProcessAsAdmin'.
+2024-12-01 16:07:49,711 10532 [INFO ] - VERBOSE: Importing function 'Uninstall-BinFile'.
+2024-12-01 16:07:49,711 10532 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyEnvironmentVariable'.
+2024-12-01 16:07:49,711 10532 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyPackage'.
+2024-12-01 16:07:49,711 10532 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyZipPackage'.
+2024-12-01 16:07:49,711 10532 [INFO ] - VERBOSE: Importing function 'Write-FunctionCallLogMessage'.
+2024-12-01 16:07:49,727 10532 [INFO ] - VERBOSE: Importing alias 'Add-BinFile'.
+2024-12-01 16:07:49,727 10532 [INFO ] - VERBOSE: Importing alias 'Generate-BinFile'.
+2024-12-01 16:07:49,727 10532 [INFO ] - VERBOSE: Importing alias 'Get-InstallRegistryKey'.
+2024-12-01 16:07:49,727 10532 [INFO ] - VERBOSE: Importing alias 'Get-OSBitness'.
+2024-12-01 16:07:49,727 10532 [INFO ] - VERBOSE: Importing alias 'Get-ProcessorBits'.
+2024-12-01 16:07:49,727 10532 [INFO ] - VERBOSE: Importing alias 'Invoke-ChocolateyProcess'.
+2024-12-01 16:07:49,740 10532 [INFO ] - VERBOSE: Importing alias 'Remove-BinFile'.
+2024-12-01 16:07:49,740 10532 [INFO ] - VERBOSE: Importing alias 'Start-ChocolateyProcess'.
+2024-12-01 16:07:50,293 10532 [ERROR] - ERROR: The term 'Test-ProcessAdminRights' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-12-01 16:07:51,026 10532 [ERROR] - The install of tinytex was NOT successful.
+2024-12-01 16:07:51,067 10532 [ERROR] - Error while running 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex\tools\chocolateyinstall.ps1'.
+ See log for details.
+2024-12-01 16:07:53,150 10532 [ERROR] - Failed to install manim-latex because a previous dependency failed.
+2024-12-01 16:07:53,440 10532 [WARN ] - 
+Chocolatey installed 0/2 packages. 2 packages failed.
+ See the log for details (E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\logs\chocolatey.log).
+2024-12-01 16:07:53,451 10532 [INFO ] - 
+2024-12-01 16:07:53,470 10532 [ERROR] - Failures
+2024-12-01 16:07:53,548 10532 [ERROR] -  - manim-latex - Failed to install manim-latex because a previous dependency failed.
+2024-12-01 16:07:53,560 10532 [ERROR] -  - tinytex (exited -1) - Error while running 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex\tools\chocolateyinstall.ps1'.
+ See log for details.

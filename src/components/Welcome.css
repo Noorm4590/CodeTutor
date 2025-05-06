@@ -1,0 +1,80 @@
+/* src/pages/Welcome.css */
+
+.welcome {
+    min-height: 100vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .welcome-main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px 40px;
+    text-align: center;
+  }
+  
+  .welcome-content {
+    max-width: 800px;
+  }
+  
+  .welcome-title {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .welcome-subtitle {
+    font-size: 1.3rem;
+    color: #c0c0c0;
+    margin-bottom: 40px;
+    line-height: 1.6;
+  }
+  
+  .welcome-buttons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .btn {
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+  }
+  
+  .btn-primary {
+    background-color: #10a37f;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0e8c6b;
+  }
+  
+  .btn-secondary {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    color: #ccc;
+  }
+  
+  .btn-secondary:hover {
+    border-color: #10a37f;
+    color: #10a37f;
+  }
+  
+  .welcome-footer {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+    border-top: 1px solid #1f1f1f;
+  }
+  

@@ -1,0 +1,82 @@
+/* src/pages/Login.css */
+
+.login-page {
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  .login-container {
+    background-color: #111;
+    padding: 40px 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
+  }
+  
+  .login-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #10a37f;
+  }
+  
+  .login-subtitle {
+    color: #aaa;
+    margin-bottom: 30px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .login-form input {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #1f1f1f;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .login-form input:focus {
+    outline: none;
+    border: 1px solid #10a37f;
+  }
+  
+  .login-btn {
+    background-color: #10a37f;
+    color: #fff;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-btn:hover {
+    background-color: #0e8c6b;
+  }
+  
+  .login-footer-text {
+    margin-top: 20px;
+    color: #888;
+  }
+  
+  .signup-link {
+    color: #10a37f;
+    text-decoration: none;
+  }
+  
+  .signup-link:hover {
+    text-decoration: underline;
+  }
+  

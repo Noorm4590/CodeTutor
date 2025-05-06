@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex\tinytex.nupkg" checksum="C861B4708157BBC7B51858D4F9C0C76E" />
+    <file path="E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex\tinytex.nuspec" checksum="29142D49A1C06DAA3B0547000CB468E0" />
+    <file path="E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex\tools\chocolateybeforemodify.ps1" checksum="4E684FD2EF1448F2E29E5BAEF24839B3" />
+    <file path="E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex\tools\chocolateyinstall.ps1" checksum="38783EE435F767E23BBBAAA2C89A53FF" />
+    <file path="E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex\tools\chocolateyuninstall.ps1" checksum="82D8A347E2BCFFE3BA9F9AA0DAC6629E" />
+  </files>
+</fileSnapshot>

@@ -1,0 +1,25 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore large model/data files
+*.pkl
+*.jpg
+*.png
+*.mp4
+*.avi
+*.mov
+
+# Node-related (if using React)
+node_modules/
+build/
+dist/
+
+# VSCode or system junk
+.DS_Store
+*.swp
+.vscode/
+.idea/

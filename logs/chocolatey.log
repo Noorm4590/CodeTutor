@@ -1,0 +1,549 @@
+2024-12-01 16:05:17,273 10640 [DEBUG] - XmlConfiguration is now operational
+2024-12-01 16:05:17,678 10640 [DEBUG] - Adding new type 'CygwinService' for type 'IAlternativeSourceRunner' from assembly 'choco'
+2024-12-01 16:05:17,678 10640 [DEBUG] - Adding new type 'CygwinService' for type 'IInstallSourceRunner' from assembly 'choco'
+2024-12-01 16:05:17,678 10640 [DEBUG] - Adding new type 'PythonService' for type 'IAlternativeSourceRunner' from assembly 'choco'
+2024-12-01 16:05:17,678 10640 [DEBUG] - Adding new type 'PythonService' for type 'IListSourceRunner' from assembly 'choco'
+2024-12-01 16:05:17,686 10640 [DEBUG] - Adding new type 'PythonService' for type 'IInstallSourceRunner' from assembly 'choco'
+2024-12-01 16:05:17,688 10640 [DEBUG] - Adding new type 'PythonService' for type 'IUninstallSourceRunner' from assembly 'choco'
+2024-12-01 16:05:17,688 10640 [DEBUG] - Adding new type 'RubyGemsService' for type 'IAlternativeSourceRunner' from assembly 'choco'
+2024-12-01 16:05:17,688 10640 [DEBUG] - Adding new type 'RubyGemsService' for type 'IListSourceRunner' from assembly 'choco'
+2024-12-01 16:05:17,688 10640 [DEBUG] - Adding new type 'RubyGemsService' for type 'IInstallSourceRunner' from assembly 'choco'
+2024-12-01 16:05:17,699 10640 [DEBUG] - Adding new type 'SystemStateValidation' for type 'IValidation' from assembly 'choco'
+2024-12-01 16:05:17,699 10640 [DEBUG] - Adding new type 'CacheFolderLockdownValidation' for type 'IValidation' from assembly 'choco'
+2024-12-01 16:05:19,322 10640 [DEBUG] - Adding new type 'EmptyOrInvalidUrlMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2024-12-01 16:05:19,322 10640 [DEBUG] - Adding new type 'FrameWorkReferencesMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2024-12-01 16:05:19,330 10640 [DEBUG] - Adding new type 'IconMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2024-12-01 16:05:19,332 10640 [DEBUG] - Adding new type 'LicenseMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2024-12-01 16:05:19,332 10640 [DEBUG] - Adding new type 'PackageTypesMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2024-12-01 16:05:19,332 10640 [DEBUG] - Adding new type 'ReadmeMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2024-12-01 16:05:19,332 10640 [DEBUG] - Adding new type 'RepositoryMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2024-12-01 16:05:19,340 10640 [DEBUG] - Adding new type 'RequireLicenseAcceptanceMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2024-12-01 16:05:19,340 10640 [DEBUG] - Adding new type 'ServicableMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2024-12-01 16:05:19,342 10640 [DEBUG] - Adding new type 'VersionMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2024-12-01 16:05:19,380 10640 [DEBUG] - Registering new command 'cache' in assembly 'choco'
+2024-12-01 16:05:19,386 10640 [DEBUG] - Registering new command 'list' in assembly 'choco'
+2024-12-01 16:05:19,388 10640 [DEBUG] - Registering new command 'rule' in assembly 'choco'
+2024-12-01 16:05:19,390 10640 [DEBUG] - Registering new command 'template' in assembly 'choco'
+2024-12-01 16:05:19,392 10640 [DEBUG] - Registering new command 'export' in assembly 'choco'
+2024-12-01 16:05:19,394 10640 [DEBUG] - Registering new command 'info' in assembly 'choco'
+2024-12-01 16:05:19,396 10640 [DEBUG] - Registering new command 'help' in assembly 'choco'
+2024-12-01 16:05:19,398 10640 [DEBUG] - Registering new command 'config' in assembly 'choco'
+2024-12-01 16:05:19,400 10640 [DEBUG] - Registering new command 'feature' in assembly 'choco'
+2024-12-01 16:05:19,400 10640 [DEBUG] - Registering new command 'new' in assembly 'choco'
+2024-12-01 16:05:19,400 10640 [DEBUG] - Registering new command 'outdated' in assembly 'choco'
+2024-12-01 16:05:19,400 10640 [DEBUG] - Registering new command 'pack' in assembly 'choco'
+2024-12-01 16:05:19,400 10640 [DEBUG] - Registering new command 'pin' in assembly 'choco'
+2024-12-01 16:05:19,400 10640 [DEBUG] - Registering new command 'push' in assembly 'choco'
+2024-12-01 16:05:19,400 10640 [DEBUG] - Registering new command 'apikey' in assembly 'choco'
+2024-12-01 16:05:19,400 10640 [DEBUG] - Registering new command 'source' in assembly 'choco'
+2024-12-01 16:05:19,416 10640 [DEBUG] - Registering new command 'uninstall' in assembly 'choco'
+2024-12-01 16:05:19,417 10640 [DEBUG] - Registering new command 'upgrade' in assembly 'choco'
+2024-12-01 16:05:19,417 10640 [DEBUG] - Registering new command 'search' in assembly 'choco'
+2024-12-01 16:05:19,423 10640 [DEBUG] - Registering new command 'unpackself' in assembly 'choco'
+2024-12-01 16:05:19,423 10640 [DEBUG] - Registering new command 'install' in assembly 'choco'
+2024-12-01 16:05:19,477 10640 [DEBUG] - Attempting to create directory "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\config".
+2024-12-01 16:05:19,865 10640 [INFO ] - ============================================================
+2024-12-01 16:05:21,938 10640 [DEBUG] - User may be subject to UAC, checking for a split token (not 100%
+ effective).
+2024-12-01 16:05:22,046 10640 [DEBUG] - Attempting to replace "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\config\chocolatey.config"
+ with "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\config\chocolatey.config.10640.update".
+ Backup placed at "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\config\chocolatey.config.backup".
+2024-12-01 16:05:22,050 10640 [DEBUG] - Attempting to copy "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\config\chocolatey.config.10640.update"
+ to "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\config\chocolatey.config".
+2024-12-01 16:05:22,065 10640 [DEBUG] - Attempting to delete file "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\config\chocolatey.config.10640.update".
+2024-12-01 16:05:22,182 10640 [INFO ] - Chocolatey v2.4.0
+2024-12-01 16:05:22,197 10640 [INFO ] - Please run 'choco -?' or 'choco <command> -?' for help menu.
+2024-12-01 16:05:22,228 10640 [DEBUG] - Chocolatey is running on Windows v 6.2.9200.0
+2024-12-01 16:05:22,234 10640 [DEBUG] - Attempting to delete file "E:/Universty/Semester 7/WP/Web Projects/code-tutor-ai/choco.exe.old".
+2024-12-01 16:05:22,237 10640 [DEBUG] - Attempting to delete file "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\choco.exe.old".
+2024-12-01 16:05:22,281 10640 [DEBUG] - Attempting to create directory "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\helpers".
+2024-12-01 16:05:22,302 10640 [DEBUG] - Attempting to create directory "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\helpers\functions".
+2024-12-01 16:05:22,516 10640 [DEBUG] - Attempting to create directory "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\redirects".
+2024-12-01 16:05:22,516 10640 [DEBUG] - Attempting to create directory "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\tools".
+2024-12-01 16:05:22,991 10640 [DEBUG] - Command line: "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\choco.exe"
+2024-12-01 16:05:22,991 10640 [DEBUG] - Received arguments: 
+2024-12-01 16:05:23,911 10640 [DEBUG] - RemovePendingPackagesTask is now ready and waiting for PreRunMessage.
+2024-12-01 16:05:24,394 10640 [DEBUG] - Sending message 'PreRunMessage' out if there are subscribers...
+2024-12-01 16:05:24,415 10640 [DEBUG] - [Pending] Removing all pending packages that should not be considered installed...
+2024-12-01 16:05:24,423 10640 [WARN ] - Directory 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib' does not exist.
+2024-12-01 16:05:25,258 10640 [DEBUG] - Sending message 'PostRunMessage' out if there are subscribers...
+2024-12-01 16:05:25,268 10640 [DEBUG] - Exiting with 1
+2024-12-01 16:06:11,189 10532 [DEBUG] - XmlConfiguration is now operational
+2024-12-01 16:06:11,520 10532 [DEBUG] - Adding new type 'CygwinService' for type 'IAlternativeSourceRunner' from assembly 'choco'
+2024-12-01 16:06:11,548 10532 [DEBUG] - Adding new type 'CygwinService' for type 'IInstallSourceRunner' from assembly 'choco'
+2024-12-01 16:06:11,550 10532 [DEBUG] - Adding new type 'PythonService' for type 'IAlternativeSourceRunner' from assembly 'choco'
+2024-12-01 16:06:11,550 10532 [DEBUG] - Adding new type 'PythonService' for type 'IListSourceRunner' from assembly 'choco'
+2024-12-01 16:06:11,550 10532 [DEBUG] - Adding new type 'PythonService' for type 'IInstallSourceRunner' from assembly 'choco'
+2024-12-01 16:06:11,559 10532 [DEBUG] - Adding new type 'PythonService' for type 'IUninstallSourceRunner' from assembly 'choco'
+2024-12-01 16:06:11,561 10532 [DEBUG] - Adding new type 'RubyGemsService' for type 'IAlternativeSourceRunner' from assembly 'choco'
+2024-12-01 16:06:11,561 10532 [DEBUG] - Adding new type 'RubyGemsService' for type 'IListSourceRunner' from assembly 'choco'
+2024-12-01 16:06:11,561 10532 [DEBUG] - Adding new type 'RubyGemsService' for type 'IInstallSourceRunner' from assembly 'choco'
+2024-12-01 16:06:11,569 10532 [DEBUG] - Adding new type 'SystemStateValidation' for type 'IValidation' from assembly 'choco'
+2024-12-01 16:06:11,571 10532 [DEBUG] - Adding new type 'CacheFolderLockdownValidation' for type 'IValidation' from assembly 'choco'
+2024-12-01 16:06:12,919 10532 [DEBUG] - Adding new type 'EmptyOrInvalidUrlMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2024-12-01 16:06:12,919 10532 [DEBUG] - Adding new type 'FrameWorkReferencesMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2024-12-01 16:06:12,919 10532 [DEBUG] - Adding new type 'IconMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2024-12-01 16:06:12,927 10532 [DEBUG] - Adding new type 'LicenseMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2024-12-01 16:06:12,927 10532 [DEBUG] - Adding new type 'PackageTypesMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2024-12-01 16:06:12,929 10532 [DEBUG] - Adding new type 'ReadmeMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2024-12-01 16:06:12,929 10532 [DEBUG] - Adding new type 'RepositoryMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2024-12-01 16:06:12,929 10532 [DEBUG] - Adding new type 'RequireLicenseAcceptanceMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2024-12-01 16:06:12,937 10532 [DEBUG] - Adding new type 'ServicableMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2024-12-01 16:06:12,937 10532 [DEBUG] - Adding new type 'VersionMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2024-12-01 16:06:12,970 10532 [DEBUG] - Registering new command 'cache' in assembly 'choco'
+2024-12-01 16:06:12,978 10532 [DEBUG] - Registering new command 'list' in assembly 'choco'
+2024-12-01 16:06:12,980 10532 [DEBUG] - Registering new command 'rule' in assembly 'choco'
+2024-12-01 16:06:12,980 10532 [DEBUG] - Registering new command 'template' in assembly 'choco'
+2024-12-01 16:06:12,985 10532 [DEBUG] - Registering new command 'export' in assembly 'choco'
+2024-12-01 16:06:13,000 10532 [DEBUG] - Registering new command 'info' in assembly 'choco'
+2024-12-01 16:06:13,000 10532 [DEBUG] - Registering new command 'help' in assembly 'choco'
+2024-12-01 16:06:13,184 10532 [DEBUG] - Registering new command 'config' in assembly 'choco'
+2024-12-01 16:06:13,185 10532 [DEBUG] - Registering new command 'feature' in assembly 'choco'
+2024-12-01 16:06:13,445 10532 [DEBUG] - Registering new command 'new' in assembly 'choco'
+2024-12-01 16:06:13,729 10532 [DEBUG] - Registering new command 'outdated' in assembly 'choco'
+2024-12-01 16:06:13,737 10532 [DEBUG] - Registering new command 'pack' in assembly 'choco'
+2024-12-01 16:06:13,739 10532 [DEBUG] - Registering new command 'pin' in assembly 'choco'
+2024-12-01 16:06:13,881 10532 [DEBUG] - Registering new command 'push' in assembly 'choco'
+2024-12-01 16:06:13,884 10532 [DEBUG] - Registering new command 'apikey' in assembly 'choco'
+2024-12-01 16:06:13,901 10532 [DEBUG] - Registering new command 'source' in assembly 'choco'
+2024-12-01 16:06:13,910 10532 [DEBUG] - Registering new command 'uninstall' in assembly 'choco'
+2024-12-01 16:06:13,916 10532 [DEBUG] - Registering new command 'upgrade' in assembly 'choco'
+2024-12-01 16:06:13,923 10532 [DEBUG] - Registering new command 'search' in assembly 'choco'
+2024-12-01 16:06:13,932 10532 [DEBUG] - Registering new command 'unpackself' in assembly 'choco'
+2024-12-01 16:06:13,934 10532 [DEBUG] - Registering new command 'install' in assembly 'choco'
+2024-12-01 16:06:15,651 10532 [INFO ] - ============================================================
+2024-12-01 16:06:19,591 10532 [DEBUG] - User may be subject to UAC, checking for a split token (not 100%
+ effective).
+2024-12-01 16:06:19,922 10532 [INFO ] - Chocolatey v2.4.0
+2024-12-01 16:06:20,028 10532 [DEBUG] - Chocolatey is running on Windows v 6.2.9200.0
+2024-12-01 16:06:20,038 10532 [DEBUG] - Attempting to delete file "E:/Universty/Semester 7/WP/Web Projects/code-tutor-ai/choco.exe.old".
+2024-12-01 16:06:20,053 10532 [DEBUG] - Attempting to delete file "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\choco.exe.old".
+2024-12-01 16:06:20,337 10532 [DEBUG] - Command line: "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\choco.exe" install manim-latex
+2024-12-01 16:06:20,341 10532 [DEBUG] - Received arguments: install manim-latex
+2024-12-01 16:06:21,120 10532 [DEBUG] - RemovePendingPackagesTask is now ready and waiting for PreRunMessage.
+2024-12-01 16:06:21,257 10532 [DEBUG] - Sending message 'PreRunMessage' out if there are subscribers...
+2024-12-01 16:06:21,368 10532 [DEBUG] - [Pending] Removing all pending packages that should not be considered installed...
+2024-12-01 16:06:21,373 10532 [WARN ] - Directory 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib' does not exist.
+2024-12-01 16:06:22,021 10532 [DEBUG] - Performing validation checks.
+2024-12-01 16:06:22,065 10532 [DEBUG] - Global Configuration Validation Checks:
+2024-12-01 16:06:22,077 10532 [DEBUG] -  - Package Exit Code / Exit On Reboot = Checked
+2024-12-01 16:06:22,094 10532 [DEBUG] - System State Validation Checks:
+2024-12-01 16:06:22,138 10532 [DEBUG] -  Reboot Requirement Checks:
+2024-12-01 16:06:22,148 10532 [DEBUG] -  - Pending Computer Rename = Checked
+2024-12-01 16:06:22,158 10532 [DEBUG] -  - Pending Component Based Servicing = Checked
+2024-12-01 16:06:22,180 10532 [DEBUG] -  - Pending Windows Auto Update = Checked
+2024-12-01 16:06:22,188 10532 [DEBUG] -  - Pending File Rename Operations = Checked
+2024-12-01 16:06:22,194 10532 [DEBUG] -  - Pending Windows Package Installer = Checked
+2024-12-01 16:06:22,200 10532 [DEBUG] -  - Pending Windows Package Installer SysWow64 = Checked
+2024-12-01 16:06:22,232 10532 [DEBUG] - Cache Folder Lockdown Checks:
+2024-12-01 16:06:22,232 10532 [DEBUG] -  - Elevated State = Failed
+2024-12-01 16:06:22,294 10532 [INFO ] - 3 validations performed. 3 success(es), 0 warning(s), and 0 error(s).
+2024-12-01 16:06:22,303 10532 [WARN ] - Chocolatey detected you are not running from an elevated command shell
+ (cmd/powershell).
+2024-12-01 16:06:22,416 10532 [WARN ] - 
+ You may experience errors - many functions/packages
+ require admin rights. Only advanced users should run choco w/out an
+ elevated shell. When you open the command shell, you should ensure
+ that you do so with "Run as Administrator" selected. If you are
+ attempting to use Chocolatey in a non-administrator setting, you
+ must select a different location other than the default install
+ location. See
+ https://docs.chocolatey.org/en-us/choco/setup#non-administrative-install
+ for details.
+
+2024-12-01 16:06:22,849 10532 [INFO ] - 
+ Do you want to continue?
+2024-12-01 16:06:22,857 10532 [INFO ] -  1) yes
+2024-12-01 16:06:22,860 10532 [INFO ] -  2) no
+2024-12-01 16:07:14,677 10532 [INFO ] - Choice selected: 'yes'
+2024-12-01 16:07:14,792 10532 [DEBUG] - The source 'https://community.chocolatey.org/api/v2/' evaluated to a 'normal' source type
+2024-12-01 16:07:14,802 10532 [DEBUG] - 
+NOTE: Hiding sensitive configuration data! Please double and triple
+ check to be sure no sensitive data is shown, especially if copying
+ output to a gist for review.
+2024-12-01 16:07:14,829 10532 [DEBUG] - Configuration: CommandName='install'|
+CacheLocation='C:\Users\Mr Mubashir\AppData\Local\Temp\chocolatey'|
+CommandExecutionTimeoutSeconds='2700'|WebRequestTimeoutSeconds='30'|
+Sources='https://community.chocolatey.org/api/v2/'|SourceType='normal'|
+IncludeConfiguredSources='False'|ShowOnlineHelp='False'|Debug='False'|
+Verbose='False'|Trace='False'|Force='False'|Noop='False'|
+HelpRequested='False'|UnsuccessfulParsing='False'|RegularOutput='True'|
+QuietOutput='False'|PromptForConfirmation='True'|
+DisableCompatibilityChecks='False'|AcceptLicense='False'|
+AllowUnofficialBuild='False'|Input='manim-latex'|AllVersions='False'|
+SkipPackageInstallProvider='False'|SkipHookScripts='False'|
+PackageNames='manim-latex'|Prerelease='False'|ForceX86='False'|
+OverrideArguments='False'|NotSilent='False'|
+ApplyPackageParametersToDependencies='False'|
+ApplyInstallArgumentsToDependencies='False'|IgnoreDependencies='False'|
+CacheExpirationInMinutes='30'|AllowDowngrade='False'|
+ForceDependencies='False'|PinPackage='False'|
+Information.PlatformType='Windows'|
+Information.PlatformVersion='6.2.9200.0'|
+Information.PlatformName='Windows 8'|
+Information.ChocolateyVersion='2.4.0.0'|
+Information.ChocolateyProductVersion='2.4.0'|
+Information.FullName='choco, Version=2.4.0.0, Culture=neutral, PublicKeyToken=79d02ea9cad655eb'|
+
+Information.Is64BitOperatingSystem='True'|
+Information.Is64BitProcess='True'|Information.IsInteractive='True'|
+Information.UserName='Mr Mubashir'|
+Information.UserDomainName='DESKTOP-AANJOPB'|
+Information.IsUserAdministrator='True'|
+Information.IsUserSystemAccount='False'|
+Information.IsUserRemoteDesktop='False'|
+Information.IsUserRemote='False'|Information.IsProcessElevated='False'|
+Information.IsLicensedVersion='False'|
+Information.IsLicensedAssemblyLoaded='False'|
+Information.LicenseType='Foss'|
+Information.CurrentDirectory='E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai'|
+
+Features.AutoUninstaller='True'|Features.ChecksumFiles='True'|
+Features.AllowEmptyChecksums='False'|
+Features.AllowEmptyChecksumsSecure='True'|
+Features.FailOnAutoUninstaller='False'|
+Features.FailOnStandardError='False'|Features.UsePowerShellHost='True'|
+Features.LogEnvironmentValues='False'|Features.LogWithoutColor='False'|
+Features.VirusCheck='False'|
+Features.FailOnInvalidOrMissingLicense='False'|
+Features.IgnoreInvalidOptionsSwitches='True'|
+Features.UsePackageExitCodes='True'|
+Features.UseEnhancedExitCodes='False'|
+Features.UseFipsCompliantChecksums='False'|
+Features.ShowNonElevatedWarnings='True'|
+Features.ShowDownloadProgress='True'|
+Features.StopOnFirstPackageFailure='False'|
+Features.UseRememberedArgumentsForUpgrades='False'|
+Features.IgnoreUnfoundPackagesOnUpgradeOutdated='False'|
+Features.SkipPackageUpgradesWhenNotInstalled='False'|
+Features.RemovePackageInformationOnUninstall='False'|
+Features.ExitOnRebootDetected='False'|
+Features.LogValidationResultsOnWarnings='True'|
+Features.UsePackageRepositoryOptimizations='True'|
+Features.UsePackageHashValidation='False'|
+ListCommand.LocalOnly='False'|
+ListCommand.IdOnly='False'|ListCommand.IncludeRegistryPrograms='False'|
+ListCommand.PageSize='25'|ListCommand.Exact='False'|
+ListCommand.ByIdOnly='False'|ListCommand.ByTagOnly='False'|
+ListCommand.IdStartsWith='False'|ListCommand.OrderByPopularity='False'|
+ListCommand.ApprovedOnly='False'|
+ListCommand.DownloadCacheAvailable='False'|
+ListCommand.NotBroken='False'|
+ListCommand.IncludeVersionOverrides='False'|
+ListCommand.ExplicitPageSize='False'|
+ListCommand.ExplicitSource='False'|
+UpgradeCommand.FailOnUnfound='False'|
+UpgradeCommand.FailOnNotInstalled='False'|
+UpgradeCommand.NotifyOnlyAvailableUpgrades='False'|
+UpgradeCommand.ExcludePrerelease='False'|
+UpgradeCommand.IgnorePinned='False'|
+NewCommand.AutomaticPackage='False'|
+NewCommand.UseOriginalTemplate='False'|SourceCommand.Command='unknown'|
+SourceCommand.Priority='0'|SourceCommand.BypassProxy='False'|
+SourceCommand.AllowSelfService='False'|
+SourceCommand.VisibleToAdminsOnly='False'|
+FeatureCommand.Command='unknown'|ConfigCommand.Command='Unknown'|
+ApiKeyCommand.Command='Unknown'|PinCommand.Command='Unknown'|
+OutdatedCommand.IgnorePinned='False'|
+ExportCommand.IncludeVersionNumbers='False'|Proxy.BypassOnLocal='True'|
+TemplateCommand.Command='unknown'|CacheCommand.Command='Unknown'|
+CacheCommand.RemoveExpiredItemsOnly='False'|
+2024-12-01 16:07:14,840 10532 [DEBUG] - _ Chocolatey:ChocolateyInstallCommand - Normal Run Mode _
+2024-12-01 16:07:14,860 10532 [INFO ] - Installing the following packages:
+2024-12-01 16:07:14,871 10532 [INFO ] - manim-latex
+2024-12-01 16:07:14,871 10532 [INFO ] - By installing, you accept licenses for the packages.
+2024-12-01 16:07:15,161 10532 [DEBUG] - Attempting to create directory "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib".
+2024-12-01 16:07:15,662 10532 [DEBUG] - Process Tree: Chocolatey CLI => powershell => Code => Code => explorer
+2024-12-01 16:07:15,747 10532 [DEBUG] - Updating User Agent to 'Chocolatey Command Line/2.4.0 via NuGet Client/6.4.1 (Microsoft Windows NT 6.2.9200.0)'.
+2024-12-01 16:07:16,394 10532 [DEBUG] - Running list with the following filter = ''
+2024-12-01 16:07:16,397 10532 [DEBUG] - --- Start of List ---
+2024-12-01 16:07:16,491 10532 [DEBUG] - Process Tree: Chocolatey CLI => powershell => Code => Code => explorer
+2024-12-01 16:07:16,499 10532 [DEBUG] - Updating User Agent to 'Chocolatey Command Line/2.4.0 via NuGet Client/6.4.1 (Microsoft Windows NT 6.2.9200.0)'.
+2024-12-01 16:07:16,510 10532 [DEBUG] - Resolving resource PackageSearchResource for source E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib
+2024-12-01 16:07:16,726 10532 [DEBUG] - --- End of List ---
+2024-12-01 16:07:16,738 10532 [DEBUG] - Resolving resource ListResource for source https://community.chocolatey.org/api/v2/
+2024-12-01 16:07:18,265 10532 [INFO ] - [NuGet]   GET https://community.chocolatey.org/api/v2/$metadata
+2024-12-01 16:07:18,429 10532 [INFO ] - [NuGet]   OK https://community.chocolatey.org/api/v2/$metadata 153ms
+2024-12-01 16:07:18,634 10532 [INFO ] - [NuGet]   GET https://community.chocolatey.org/api/v2/Packages()?$filter=(tolower(Id) eq 'manim-latex') and IsLatestVersion&semVerLevel=2.0.0
+2024-12-01 16:07:18,799 10532 [INFO ] - [NuGet]   OK https://community.chocolatey.org/api/v2/Packages()?$filter=(tolower(Id) eq 'manim-latex') and IsLatestVersion&semVerLevel=2.0.0 165ms
+2024-12-01 16:07:19,056 10532 [DEBUG] - Resolving resource DependencyInfoResource for source https://community.chocolatey.org/api/v2/
+2024-12-01 16:07:19,335 10532 [INFO ] - [NuGet]   GET https://community.chocolatey.org/api/v2/Packages(Id='manim-latex',Version='2024.11.0')
+2024-12-01 16:07:19,518 10532 [INFO ] - [NuGet]   OK https://community.chocolatey.org/api/v2/Packages(Id='manim-latex',Version='2024.11.0') 178ms
+2024-12-01 16:07:19,726 10532 [INFO ] - [NuGet]   GET https://community.chocolatey.org/api/v2/FindPackagesById()?id='tinytex'&semVerLevel=2.0.0
+2024-12-01 16:07:19,870 10532 [INFO ] - [NuGet]   OK https://community.chocolatey.org/api/v2/FindPackagesById()?id='tinytex'&semVerLevel=2.0.0 144ms
+2024-12-01 16:07:20,973 10532 [INFO ] - [NuGet]   GET http://community.chocolatey.org/api/v2/FindPackagesById?id='tinytex'&$skiptoken='1709401702480','2021.9.0','tinytex'
+2024-12-01 16:07:24,125 10532 [INFO ] - [NuGet]   OK http://community.chocolatey.org/api/v2/FindPackagesById?id='tinytex'&$skiptoken='1709401702480','2021.9.0','tinytex' 3153ms
+2024-12-01 16:07:25,763 10532 [INFO ] - [NuGet]   GET http://community.chocolatey.org/api/v2/FindPackagesById?id='tinytex'&$skiptoken='1708139022643','2020.9.0','tinytex'
+2024-12-01 16:07:26,079 10532 [INFO ] - [NuGet]   OK http://community.chocolatey.org/api/v2/FindPackagesById?id='tinytex'&$skiptoken='1708139022643','2020.9.0','tinytex' 322ms
+2024-12-01 16:07:26,399 10532 [INFO ] - [NuGet] Resolving dependency information took 0 ms
+2024-12-01 16:07:26,399 10532 [DEBUG] - Resolving resource PackageMetadataResource for source https://community.chocolatey.org/api/v2/
+2024-12-01 16:07:26,431 10532 [INFO ] - [NuGet]   GET https://community.chocolatey.org/api/v2/Packages(Id='tinytex',Version='2024.12.0')
+2024-12-01 16:07:27,788 10532 [INFO ] - [NuGet]   OK https://community.chocolatey.org/api/v2/Packages(Id='tinytex',Version='2024.12.0') 1358ms
+2024-12-01 16:07:27,887 10532 [DEBUG] - Resolving resource DownloadResource for source https://community.chocolatey.org/api/v2/
+2024-12-01 16:07:27,955 10532 [DEBUG] - Attempting to delete file "".
+2024-12-01 16:07:27,955 10532 [INFO ] - Downloading package from source 'https://community.chocolatey.org/api/v2/'
+2024-12-01 16:07:27,966 10532 [DEBUG] - Package download location 'https://community.chocolatey.org/api/v2/package/tinytex/2024.12.0'
+2024-12-01 16:07:28,044 10532 [INFO ] - [NuGet]   GET https://community.chocolatey.org/api/v2/package/tinytex/2024.12.0
+2024-12-01 16:07:30,702 10532 [INFO ] - [NuGet]   OK https://community.chocolatey.org/api/v2/package/tinytex/2024.12.0 2661ms
+2024-12-01 16:07:30,740 10532 [INFO ] - [NuGet] Acquiring lock for the installation of tinytex 2024.12.0
+2024-12-01 16:07:30,825 10532 [INFO ] - [NuGet] Acquired lock for the installation of tinytex 2024.12.0
+2024-12-01 16:07:31,416 10532 [INFO ] - [NuGet] Installed tinytex 2024.12.0 from https://community.chocolatey.org/api/v2/ with content hash xabEArjygZ8kkbHihItCvZOQSgMznKawNO3efiSEJ8EpsjD69X4tdxKnrHWrqQeR1HYsx0irM2QehiQFoYl3hg==.
+2024-12-01 16:07:31,471 10532 [DEBUG] - Skipping package hash validation as feature 'usePackageHashValidation' is not enabled.
+2024-12-01 16:07:31,518 10532 [INFO ] - [NuGet] Adding package 'tinytex.2024.12.0' to folder 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib'
+2024-12-01 16:07:31,765 10532 [INFO ] - [NuGet] Added package 'tinytex.2024.12.0' to folder 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib'
+2024-12-01 16:07:31,785 10532 [DEBUG] - Attempting to delete file "C:\Users\Mr Mubashir\AppData\Local\Temp\chocolatey\ChocolateyScratch\tinytex/2024.12.0\tinytex.2024.12.0.nupkg".
+2024-12-01 16:07:31,785 10532 [DEBUG] - Attempting to delete file "C:\Users\Mr Mubashir\AppData\Local\Temp\chocolatey\ChocolateyScratch\tinytex/2024.12.0\.nupkg.metadata".
+2024-12-01 16:07:31,796 10532 [DEBUG] - Attempting to delete file "C:\Users\Mr Mubashir\AppData\Local\Temp\chocolatey\ChocolateyScratch\tinytex/2024.12.0\tinytex.2024.12.0.nupkg.sha512".
+2024-12-01 16:07:31,929 10532 [INFO ] - 
+tinytex v2024.12.0 [Approved]
+2024-12-01 16:07:32,167 10532 [INFO ] - tinytex package files install completed. Performing other installation steps.
+2024-12-01 16:07:32,444 10532 [DEBUG] - Contents of 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex\tools\chocolateyinstall.ps1':
+2024-12-01 16:07:32,464 10532 [DEBUG] - $ErrorActionPreference = 'Stop';
+$version = '2024.12';
+$toolsDir = Get-ToolsLocation
+$url        = "https://github.com/rstudio/tinytex-releases/releases/download/v$($version)/TinyTeX-1-v$($version).zip"
+$packageArgs = @{
+  packageName   = $env:ChocolateyPackageName
+  unzipLocation = $toolsDir
+  url           = $url
+  checksum      = '4889bd082ce97d92ffd32d436586c0fb'
+  checksumType  = 'md5'
+}
+
+# get Package Parameters
+$pp = Get-PackageParameters
+
+Install-ChocolateyZipPackage @packageArgs
+
+Write-Host "Running tlmgr path add"
+# Adds to Path
+if ($pp['AddToSystemPath'] -eq 'true') {
+	Write-Host "Running tlmgr AddToSystemPath"
+	# AddToSystemPath
+	$statementsToRun = "/C `"$toolsDir\TinyTeX\bin\windows\tlmgr.bat path --w32mode=admin add`""
+} else {
+	# AddToUserPath
+	$statementsToRun = "/C `"$toolsDir\TinyTeX\bin\windows\tlmgr.bat path add`""
+}
+Start-ChocolateyProcessAsAdmin $statementsToRun "$env:WINDIR\system32\cmd.exe"
+
+Write-Host "Updating tlmgr"
+#updates tlmgr
+$statementsToRun = "/C `"$toolsDir\TinyTeX\bin\windows\tlmgr.bat update --self`""
+Start-ChocolateyProcessAsAdmin $statementsToRun "$env:WINDIR\system32\cmd.exe"
+
+$files = Get-ChildItem $toolsDir -Include *.exe -Recurse
+foreach ($file in $files) {
+  #We are directly adding it to path so no need to generate shims
+  New-Item "$file.ignore" -ItemType file -Force | Out-Null
+}
+
+Write-Host "Installing Extra Packages"
+$tinytex_tmp_file = "$toolsDir\tinytex-pkg-installed.txt"
+if (Test-Path "$tinytex_tmp_file") {
+    $env:PATH = "$toolsDir\TinyTeX\bin\windows;$env:PATH"
+    $tinytex_pkg_installed = (tlmgr info --list --only-installed --data name)
+    $tinytex_reinstall = "$env:TMP\installed_old_packages.ps1"
+    ((Get-Content $tinytex_tmp_file) | Where-Object { $tinytex_pkg_installed -NotContains $_}) | ForEach-Object {"Invoke-Expression '$toolsDir\TinyTeX\bin\windows\tlmgr.bat install {0}'" -f $_} > $tinytex_reinstall
+    if ((Get-Content $tinytex_reinstall) -ne $null){
+        Write-Host "Installing previous user installed packages"
+        Invoke-Expression "$tinytex_reinstall"
+    }
+    Remove-Item -Force $tinytex_reinstall
+    Remove-Item -Force $tinytex_tmp_file
+}
+
+2024-12-01 16:07:32,464 10532 [INFO ] - The package tinytex wants to run 'chocolateyinstall.ps1'.
+2024-12-01 16:07:32,475 10532 [INFO ] - Note: If you don't run this script, the installation will fail.
+2024-12-01 16:07:32,484 10532 [INFO ] - Note: To confirm automatically next time, use '-y' or consider:
+2024-12-01 16:07:32,499 10532 [INFO ] - choco feature enable -n allowGlobalConfirmation
+2024-12-01 16:07:32,609 10532 [INFO ] - Do you want to run the script?
+2024-12-01 16:07:32,611 10532 [INFO ] -  1) yes
+2024-12-01 16:07:32,630 10532 [INFO ] -  2) all - yes to all
+2024-12-01 16:07:32,658 10532 [INFO ] -  3) no
+2024-12-01 16:07:32,662 10532 [INFO ] -  4) print
+2024-12-01 16:07:45,060 10532 [INFO ] - Choice selected: 'yes'
+2024-12-01 16:07:45,198 10532 [DEBUG] - Calling built-in PowerShell host with ['[System.Threading.Thread]::CurrentThread.CurrentCulture = '';[System.Threading.Thread]::CurrentThread.CurrentUICulture = '';[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::SystemDefault; & import-module -name 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\helpers\chocolateyInstaller.psm1'; & 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\helpers\chocolateyScriptRunner.ps1' -packageScript 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex\tools\chocolateyinstall.ps1' -installArguments '' -packageParameters '' -preRunHookScripts $null -postRunHookScripts $null']
+2024-12-01 16:07:45,234 10532 [DEBUG] - Redirecting System.Management.Automation.resources, Version=3.0.0.0, Culture=en-US, PublicKeyToken=31bf3856ad364e35, requested by ''
+2024-12-01 16:07:46,773 10532 [DEBUG] - Host version is 5.1.19041.1, PowerShell Version is '5.1.19041.5129' and CLR Version is '4.0.30319.42000'.
+2024-12-01 16:07:49,407 10532 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2024-12-01 16:07:49,407 10532 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2024-12-01 16:07:49,419 10532 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyConfigValue'.
+2024-12-01 16:07:49,419 10532 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyPath'.
+2024-12-01 16:07:49,419 10532 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2024-12-01 16:07:49,419 10532 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2024-12-01 16:07:49,419 10532 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2024-12-01 16:07:49,419 10532 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2024-12-01 16:07:49,419 10532 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2024-12-01 16:07:49,419 10532 [INFO ] - VERBOSE: Exporting function 'Get-PackageParametersBuiltIn'.
+2024-12-01 16:07:49,436 10532 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2024-12-01 16:07:49,436 10532 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2024-12-01 16:07:49,439 10532 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2024-12-01 16:07:49,442 10532 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2024-12-01 16:07:49,442 10532 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2024-12-01 16:07:49,442 10532 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2024-12-01 16:07:49,442 10532 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2024-12-01 16:07:49,442 10532 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2024-12-01 16:07:49,442 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2024-12-01 16:07:49,455 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2024-12-01 16:07:49,455 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2024-12-01 16:07:49,455 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2024-12-01 16:07:49,455 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2024-12-01 16:07:49,455 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2024-12-01 16:07:49,455 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2024-12-01 16:07:49,455 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2024-12-01 16:07:49,455 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2024-12-01 16:07:49,471 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2024-12-01 16:07:49,471 10532 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2024-12-01 16:07:49,471 10532 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2024-12-01 16:07:49,471 10532 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2024-12-01 16:07:49,471 10532 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2024-12-01 16:07:49,471 10532 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2024-12-01 16:07:49,471 10532 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2024-12-01 16:07:49,471 10532 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2024-12-01 16:07:49,486 10532 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2024-12-01 16:07:49,492 10532 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2024-12-01 16:07:49,492 10532 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2024-12-01 16:07:49,492 10532 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2024-12-01 16:07:49,503 10532 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2024-12-01 16:07:49,503 10532 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2024-12-01 16:07:49,507 10532 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2024-12-01 16:07:49,507 10532 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2024-12-01 16:07:49,507 10532 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2024-12-01 16:07:49,541 10532 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2024-12-01 16:07:49,541 10532 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2024-12-01 16:07:49,541 10532 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyConfigValue'.
+2024-12-01 16:07:49,541 10532 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyPath'.
+2024-12-01 16:07:49,541 10532 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2024-12-01 16:07:49,541 10532 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2024-12-01 16:07:49,555 10532 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2024-12-01 16:07:49,556 10532 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2024-12-01 16:07:49,559 10532 [INFO ] - VERBOSE: Exporting function 'Get-PackageParameters'.
+2024-12-01 16:07:49,562 10532 [INFO ] - VERBOSE: Exporting function 'Get-PackageParametersBuiltIn'.
+2024-12-01 16:07:49,563 10532 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2024-12-01 16:07:49,563 10532 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2024-12-01 16:07:49,563 10532 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2024-12-01 16:07:49,563 10532 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2024-12-01 16:07:49,563 10532 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2024-12-01 16:07:49,563 10532 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2024-12-01 16:07:49,563 10532 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2024-12-01 16:07:49,579 10532 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2024-12-01 16:07:49,579 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2024-12-01 16:07:49,579 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2024-12-01 16:07:49,579 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2024-12-01 16:07:49,579 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2024-12-01 16:07:49,579 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2024-12-01 16:07:49,579 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2024-12-01 16:07:49,595 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2024-12-01 16:07:49,595 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2024-12-01 16:07:49,595 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2024-12-01 16:07:49,595 10532 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2024-12-01 16:07:49,595 10532 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2024-12-01 16:07:49,595 10532 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2024-12-01 16:07:49,595 10532 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2024-12-01 16:07:49,595 10532 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2024-12-01 16:07:49,610 10532 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2024-12-01 16:07:49,610 10532 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2024-12-01 16:07:49,610 10532 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2024-12-01 16:07:49,610 10532 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2024-12-01 16:07:49,610 10532 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2024-12-01 16:07:49,610 10532 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2024-12-01 16:07:49,610 10532 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2024-12-01 16:07:49,626 10532 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2024-12-01 16:07:49,626 10532 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2024-12-01 16:07:49,626 10532 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2024-12-01 16:07:49,633 10532 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2024-12-01 16:07:49,634 10532 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2024-12-01 16:07:49,640 10532 [INFO ] - VERBOSE: Importing function 'Format-FileSize'.
+2024-12-01 16:07:49,640 10532 [INFO ] - VERBOSE: Importing function 'Get-ChecksumValid'.
+2024-12-01 16:07:49,640 10532 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyConfigValue'.
+2024-12-01 16:07:49,640 10532 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyPath'.
+2024-12-01 16:07:49,640 10532 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyUnzip'.
+2024-12-01 16:07:49,657 10532 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyWebFile'.
+2024-12-01 16:07:49,658 10532 [INFO ] - VERBOSE: Importing function 'Get-FtpFile'.
+2024-12-01 16:07:49,662 10532 [INFO ] - VERBOSE: Importing function 'Get-OSArchitectureWidth'.
+2024-12-01 16:07:49,665 10532 [INFO ] - VERBOSE: Importing function 'Get-PackageParameters'.
+2024-12-01 16:07:49,667 10532 [INFO ] - VERBOSE: Importing function 'Get-PackageParametersBuiltIn'.
+2024-12-01 16:07:49,669 10532 [INFO ] - VERBOSE: Importing function 'Get-ToolsLocation'.
+2024-12-01 16:07:49,672 10532 [INFO ] - VERBOSE: Importing function 'Get-UACEnabled'.
+2024-12-01 16:07:49,674 10532 [INFO ] - VERBOSE: Importing function 'Get-UninstallRegistryKey'.
+2024-12-01 16:07:49,676 10532 [INFO ] - VERBOSE: Importing function 'Get-VirusCheckValid'.
+2024-12-01 16:07:49,680 10532 [INFO ] - VERBOSE: Importing function 'Get-WebFile'.
+2024-12-01 16:07:49,680 10532 [INFO ] - VERBOSE: Importing function 'Get-WebFileName'.
+2024-12-01 16:07:49,680 10532 [INFO ] - VERBOSE: Importing function 'Get-WebHeaders'.
+2024-12-01 16:07:49,680 10532 [INFO ] - VERBOSE: Importing function 'Install-BinFile'.
+2024-12-01 16:07:49,680 10532 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyEnvironmentVariable'.
+2024-12-01 16:07:49,680 10532 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyExplorerMenuItem'.
+2024-12-01 16:07:49,680 10532 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyFileAssociation'.
+2024-12-01 16:07:49,696 10532 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyInstallPackage'.
+2024-12-01 16:07:49,696 10532 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPackage'.
+2024-12-01 16:07:49,696 10532 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPinnedTaskBarItem'.
+2024-12-01 16:07:49,696 10532 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPowershellCommand'.
+2024-12-01 16:07:49,696 10532 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyShortcut'.
+2024-12-01 16:07:49,696 10532 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyVsixPackage'.
+2024-12-01 16:07:49,696 10532 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyZipPackage'.
+2024-12-01 16:07:49,711 10532 [INFO ] - VERBOSE: Importing function 'Install-Vsix'.
+2024-12-01 16:07:49,711 10532 [INFO ] - VERBOSE: Importing function 'Set-PowerShellExitCode'.
+2024-12-01 16:07:49,711 10532 [INFO ] - VERBOSE: Importing function 'Start-ChocolateyProcessAsAdmin'.
+2024-12-01 16:07:49,711 10532 [INFO ] - VERBOSE: Importing function 'Uninstall-BinFile'.
+2024-12-01 16:07:49,711 10532 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyEnvironmentVariable'.
+2024-12-01 16:07:49,711 10532 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyPackage'.
+2024-12-01 16:07:49,711 10532 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyZipPackage'.
+2024-12-01 16:07:49,711 10532 [INFO ] - VERBOSE: Importing function 'Write-FunctionCallLogMessage'.
+2024-12-01 16:07:49,727 10532 [INFO ] - VERBOSE: Importing alias 'Add-BinFile'.
+2024-12-01 16:07:49,727 10532 [INFO ] - VERBOSE: Importing alias 'Generate-BinFile'.
+2024-12-01 16:07:49,727 10532 [INFO ] - VERBOSE: Importing alias 'Get-InstallRegistryKey'.
+2024-12-01 16:07:49,727 10532 [INFO ] - VERBOSE: Importing alias 'Get-OSBitness'.
+2024-12-01 16:07:49,727 10532 [INFO ] - VERBOSE: Importing alias 'Get-ProcessorBits'.
+2024-12-01 16:07:49,727 10532 [INFO ] - VERBOSE: Importing alias 'Invoke-ChocolateyProcess'.
+2024-12-01 16:07:49,740 10532 [INFO ] - VERBOSE: Importing alias 'Remove-BinFile'.
+2024-12-01 16:07:49,740 10532 [INFO ] - VERBOSE: Importing alias 'Start-ChocolateyProcess'.
+2024-12-01 16:07:49,909 10532 [DEBUG] - ---------------------------Script Execution---------------------------
+2024-12-01 16:07:49,909 10532 [DEBUG] - Running 'ChocolateyScriptRunner' for tinytex v2024.12.0 with packageScript 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex\tools\chocolateyinstall.ps1', packageFolder:'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex', installArguments: '', packageParameters: '', preRunHookScripts: '', postRunHookScripts: '',
+2024-12-01 16:07:49,940 10532 [DEBUG] - Running package script 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex\tools\chocolateyinstall.ps1'
+2024-12-01 16:07:50,087 10532 [DEBUG] - Running Get-ToolsLocation 
+2024-12-01 16:07:50,293 10532 [ERROR] - ERROR: The term 'Test-ProcessAdminRights' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2024-12-01 16:07:50,309 10532 [DEBUG] - Built-in PowerShell host called with ['[System.Threading.Thread]::CurrentThread.CurrentCulture = '';[System.Threading.Thread]::CurrentThread.CurrentUICulture = '';[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::SystemDefault; & import-module -name 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\helpers\chocolateyInstaller.psm1'; & 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\helpers\chocolateyScriptRunner.ps1' -packageScript 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex\tools\chocolateyinstall.ps1' -installArguments '' -packageParameters '' -preRunHookScripts $null -postRunHookScripts $null'] exited with '-1'.
+2024-12-01 16:07:50,334 10532 [DEBUG] - Calling command ['"C:\Windows\System32\shutdown.exe" /a']
+2024-12-01 16:07:50,532 10532 [DEBUG] - Command ['"C:\Windows\System32\shutdown.exe" /a'] exited with '1116'
+2024-12-01 16:07:50,809 10532 [DEBUG] - Capturing package files in 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex'
+2024-12-01 16:07:50,850 10532 [DEBUG] -  Found 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex\tinytex.nupkg'
+  with checksum 'C861B4708157BBC7B51858D4F9C0C76E'
+2024-12-01 16:07:50,850 10532 [DEBUG] -  Found 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex\tinytex.nuspec'
+  with checksum '29142D49A1C06DAA3B0547000CB468E0'
+2024-12-01 16:07:50,861 10532 [DEBUG] -  Found 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex\tools\chocolateybeforemodify.ps1'
+  with checksum '4E684FD2EF1448F2E29E5BAEF24839B3'
+2024-12-01 16:07:50,861 10532 [DEBUG] -  Found 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex\tools\chocolateyinstall.ps1'
+  with checksum '38783EE435F767E23BBBAAA2C89A53FF'
+2024-12-01 16:07:50,861 10532 [DEBUG] -  Found 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex\tools\chocolateyuninstall.ps1'
+  with checksum '82D8A347E2BCFFE3BA9F9AA0DAC6629E'
+2024-12-01 16:07:50,873 10532 [DEBUG] - Attempting to create directory "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\.chocolatey".
+2024-12-01 16:07:50,912 10532 [DEBUG] - Adding 'Hidden' attribute(s) to 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\.chocolatey'.
+2024-12-01 16:07:50,962 10532 [DEBUG] - Attempting to create directory "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\.chocolatey\tinytex.2024.12.0".
+2024-12-01 16:07:50,995 10532 [DEBUG] - There was no original file at 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\.chocolatey\tinytex.2024.12.0\.files'
+2024-12-01 16:07:51,006 10532 [DEBUG] - Attempting to delete file "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\.chocolatey\tinytex.2024.12.0\.arguments".
+2024-12-01 16:07:51,006 10532 [DEBUG] - Attempting to delete file "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\.chocolatey\tinytex.2024.12.0\.extra".
+2024-12-01 16:07:51,006 10532 [DEBUG] - Attempting to delete file "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\.chocolatey\tinytex.2024.12.0\.version".
+2024-12-01 16:07:51,006 10532 [DEBUG] - Attempting to delete file "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\.chocolatey\tinytex.2024.12.0\.sxs".
+2024-12-01 16:07:51,015 10532 [DEBUG] - Attempting to delete file "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\.chocolatey\tinytex.2024.12.0\.pin".
+2024-12-01 16:07:51,016 10532 [DEBUG] - Attempting to delete file "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\.chocolatey\tinytex.2024.12.0\.deploymentLocation".
+2024-12-01 16:07:51,024 10532 [DEBUG] - Sending message 'HandlePackageResultCompletedMessage' out if there are subscribers...
+2024-12-01 16:07:51,026 10532 [ERROR] - The install of tinytex was NOT successful.
+2024-12-01 16:07:51,067 10532 [ERROR] - Error while running 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex\tools\chocolateyinstall.ps1'.
+ See log for details.
+2024-12-01 16:07:51,077 10532 [DEBUG] - Attempting to create directory "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib-bad".
+2024-12-01 16:07:51,090 10532 [DEBUG] - Attempting to create directory "E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib-bad\tinytex".
+2024-12-01 16:07:51,094 10532 [DEBUG] - Moving E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex to E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib-bad\tinytex\2024.12.0
+2024-12-01 16:07:51,107 10532 [DEBUG] - Moving 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex'
+ to 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib-bad\tinytex\2024.12.0'
+2024-12-01 16:07:53,150 10532 [ERROR] - Failed to install manim-latex because a previous dependency failed.
+2024-12-01 16:07:53,440 10532 [WARN ] - 
+Chocolatey installed 0/2 packages. 2 packages failed.
+ See the log for details (E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\logs\chocolatey.log).
+2024-12-01 16:07:53,451 10532 [INFO ] - 
+2024-12-01 16:07:53,470 10532 [ERROR] - Failures
+2024-12-01 16:07:53,548 10532 [ERROR] -  - manim-latex - Failed to install manim-latex because a previous dependency failed.
+2024-12-01 16:07:53,560 10532 [ERROR] -  - tinytex (exited -1) - Error while running 'E:\Universty\Semester 7\WP\Web Projects\code-tutor-ai\lib\tinytex\tools\chocolateyinstall.ps1'.
+ See log for details.
+2024-12-01 16:07:53,679 10532 [DEBUG] - Sending message 'PostRunMessage' out if there are subscribers...
+2024-12-01 16:07:53,691 10532 [DEBUG] - Exiting with -1
